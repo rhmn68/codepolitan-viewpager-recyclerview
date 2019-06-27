@@ -1,9 +1,13 @@
-package coffeecode.co.viewpagerfragment;
+package coffeecode.co.viewpagerfragment.adapter;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import coffeecode.co.viewpagerfragment.fragment.MobilFragment;
+import coffeecode.co.viewpagerfragment.fragment.MotorFragment;
+import coffeecode.co.viewpagerfragment.fragment.PesawatFragment;
 
 public class FragmentPagerAdapter extends FragmentStatePagerAdapter {
 

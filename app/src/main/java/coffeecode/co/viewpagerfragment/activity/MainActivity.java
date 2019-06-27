@@ -1,9 +1,12 @@
-package coffeecode.co.viewpagerfragment;
+package coffeecode.co.viewpagerfragment.activity;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import coffeecode.co.viewpagerfragment.R;
+import coffeecode.co.viewpagerfragment.adapter.FragmentPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
